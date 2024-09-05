@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectCard({ title, description, imgUrl, link, linkStatus, target }) {
     return (
-        <div className='flex flex-col justify-between bg-dark-grey rounded-[30px] max-w-[350px] p-5 mb-5 md:max-w-full md:flex-row-reverse md:p-6 md:justify-end md:h-[275px] xl:h-[300px]'>
+        <div className='flex flex-col justify-between bg-dark-grey rounded-[30px] max-w-[350px] p-5 mb-5 md:flex-row-reverse md:p-6 md:justify-end md:h-[275px] xl:h-[300px]'>
             <div className='mb-4 md:self-center md:w-[70%]'>
                 <h3 className='text-2xl mb-2 md:text-3xl'>
                     {title}

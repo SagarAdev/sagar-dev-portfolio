@@ -6,7 +6,7 @@ function Projects() {
         {
             title: "React Dictionary Webapp",
             description: "A responsive dictionary app built with React, allowing users to search for word definitions, synonyms, phonetic transcriptions, and examples using a dictionary API. Integrated Axios to fetch real-time data for a complete search experience.",
-            imgUrl: "./dictionaryWebapp.jpg",
+            imgUrl: "/src/assets/dictionaryWebapp.jpg",
             link: "https://github.com/SagarAdev/React-Dictionary-Webapp.git",
             linkStatus: "active-link",
             target: "_blank"
@@ -14,7 +14,7 @@ function Projects() {
         {
             title: "NatureNook (Upcoming)",
             description: "An e-commerce website for indoor plants. A frontend-only platform focused on responsive design and smooth user interactions. Stay tuned for updates!",
-            imgUrl: "./ecomWebsite.jpg",
+            imgUrl: "/src/assets/ecomWebsite.jpg",
             link: "",
             linkStatus: "font-normal flex",
             target: "",

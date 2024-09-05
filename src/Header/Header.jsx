@@ -83,8 +83,8 @@ function Header() {
                 setBurgerClicked(!burgerClicked);
             }}
                 className={burgerClasses}>
-                <img src="./burger-menu-right-svgrepo-com.svg" alt="Hamburger-open-icon" className={openBurgerIcon(burgerClicked)} />
-                <img src="./cross-svgrepo-com.svg" alt="Hamburger-close-icon" className={closeBurgerIcon(burgerClicked)} />
+                <img src="/src/assets/burger-menu-right-svgrepo-com.svg" alt="Hamburger-open-icon" className={openBurgerIcon(burgerClicked)} />
+                <img src="/src/assets/cross-svgrepo-com.svg" alt="Hamburger-close-icon" className={closeBurgerIcon(burgerClicked)} />
             </div>
         </header >
     )
