@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-scroll';
+import crossSvg from '/src/assets/cross-svgrepo-com.svg';
+import burgerSvg from '/src/assets/burger-menu-right-svgrepo-com.svg';
 
 function Header() {
 
@@ -83,8 +85,8 @@ function Header() {
                 setBurgerClicked(!burgerClicked);
             }}
                 className={burgerClasses}>
-                <img src="/src/assets/burger-menu-right-svgrepo-com.svg" alt="Hamburger-open-icon" className={openBurgerIcon(burgerClicked)} />
-                <img src="/src/assets/cross-svgrepo-com.svg" alt="Hamburger-close-icon" className={closeBurgerIcon(burgerClicked)} />
+                <img src={burgerSvg} alt="Hamburger-open-icon" className={openBurgerIcon(burgerClicked)} />
+                <img src={crossSvg} alt="Hamburger-close-icon" className={closeBurgerIcon(burgerClicked)} />
             </div>
         </header >
     )
