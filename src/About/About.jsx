@@ -1,12 +1,12 @@
 import React from 'react';
 import SkillCard from './SkillCard';
-import htmlSvg from '/src/assets/htmlIcon.svg';
-import cssSvg from '/src/assets/cssIcon.svg';
-import jsSvg from '/src/assets/jsIcon.svg';
-import reactSvg from '/src/assets/reactIcon.svg';
-import tailwindSvg from '/src/assets/tailwindIcon.svg';
-import githubSvg from '/src/assets/githubIcon.svg';
-import responsiveSvg from '/src/assets/responsiveIcon.svg';
+import htmlSvg from './src/assets/htmlIcon.svg';
+import cssSvg from './src/assets/cssIcon.svg';
+import jsSvg from './src/assets/jsIcon.svg';
+import reactSvg from './src/assets/reactIcon.svg';
+import tailwindSvg from './src/assets/tailwindIcon.svg';
+import githubSvg from './src/assets/githubIcon.svg';
+import responsiveSvg from './src/assets/responsiveIcon.svg';
 
 function About() {
     return (
