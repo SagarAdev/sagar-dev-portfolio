@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import dictionaryJpg from './src/assets/dictionaryWebapp.jpg';
-import ecomJpg from './src/assets/ecomWebsite.jpg'
+import dictionaryJpg from '../src/assets/dictionaryWebapp.jpg';
+import ecomJpg from '../src/assets/ecomWebsite.jpg'
 function Projects() {
     const projectList = [
         {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-scroll';
-import crossSvg from './src/assets/cross-svgrepo-com.svg';
-import burgerSvg from './src/assets/burger-menu-right-svgrepo-com.svg';
+import crossSvg from '../src/assets/cross-svgrepo-com.svg';
+import burgerSvg from '../src/assets/burger-menu-right-svgrepo-com.svg';
 
 function Header() {
 
