@@ -22,7 +22,7 @@
     }
 
     .button {
-        @apply bg-accent text-background-color w-[35%] h-12 self-center rounded-full md:w-[20%] md:mt-20 md:text-xl transition-all duration-300 delay-75 ease-in-out;
+        @apply bg-accent text-background-color w-[100%] h-12 self-center rounded-full md:text-xl transition-all duration-300 delay-75 ease-in-out;
     }
 
     .button-hover {

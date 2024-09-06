@@ -33,7 +33,9 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <button className='button button-hover'>Resume</button>
+                <a className='self-center w-[35%] md:w-[20%]' href="https://drive.google.com/file/d/1Wlm5yDDsDS9KwgdpfNQz4g92e9EVfqBU/view?usp=sharing">
+                    <button className='button button-hover'>Resume</button>
+                </a>
             </section>
         </>
     )
