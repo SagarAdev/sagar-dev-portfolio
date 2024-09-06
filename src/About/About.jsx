@@ -1,12 +1,6 @@
 import React from 'react';
-import SkillCard from '../SkillCard';
-import htmlSvg from '../src/assets/htmlIcon.svg';
-import cssSvg from '../src/assets/cssIcon.svg';
-import jsSvg from '../src/assets/jsIcon.svg';
-import reactSvg from '../src/assets/reactIcon.svg';
-import tailwindSvg from '../src/assets/tailwindIcon.svg';
-import githubSvg from '../src/assets/githubIcon.svg';
-import responsiveSvg from '../src/assets/responsiveIcon.svg';
+import SkillCard from './SkillCard';
+
 
 function About() {
     return (
@@ -29,13 +23,13 @@ function About() {
                     <div className='my-6 md:my-0 md:w-[50%] md:ml-10 md:px-5'>
                         <h3 className='text-2xl'>My Skills</h3>
                         <div className="flex flex-wrap justify-around w-[100%] pt-5 md:py-5">
-                            <SkillCard imgUrl={htmlSvg} title="HTML5" />
-                            <SkillCard imgUrl={cssSvg} title="CSS3" />
-                            <SkillCard imgUrl={jsSvg} title="Javascript" />
-                            <SkillCard imgUrl={reactSvg} title="React.js" />
-                            <SkillCard imgUrl={tailwindSvg} title="Tailwind CSS" />
-                            <SkillCard imgUrl={githubSvg} title="Github" />
-                            <SkillCard imgUrl={responsiveSvg} title="Responsive Design" />
+                            <SkillCard imgUrl="/src/assets/htmlIcon.svg" title="HTML5" />
+                            <SkillCard imgUrl="/src/assets/cssIcon.svg" title="CSS3" />
+                            <SkillCard imgUrl="/src/assets/jsIcon.svg" title="Javascript" />
+                            <SkillCard imgUrl="/src/assets/reactIcon.svg" title="React.js" />
+                            <SkillCard imgUrl="/src/assets/tailwindIcon.svg" title="Tailwind CSS" />
+                            <SkillCard imgUrl="/src/assets/githubIcon.svg" title="Github" />
+                            <SkillCard imgUrl="/src/assets/responsiveIcon.svg" title="Responsive Design" />
                         </div>
                     </div>
                 </div>
